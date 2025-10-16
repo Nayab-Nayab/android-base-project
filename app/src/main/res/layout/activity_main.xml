@@ -24,7 +24,8 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/logo"
-            android:scaleType="centerCrop" />
+            android:scaleType="centerCrop"
+            />
 
     </androidx.cardview.widget.CardView>
 
@@ -67,11 +68,34 @@
             android:layout_weight="1"
             android:text="Reset"/>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:id="@+id/btnRegister"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="sign in"
+            />
+        <Button
+            android:id="@+id/btnForget"
+            android:layout_height="wrap_content"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:text="Forget"/>
+    </LinearLayout>
+
+
     <TextView
         android:id="@+id/tvMessage"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="50dp"
+        android:layout_marginTop="10dp"
         android:textAlignment="center" />
+
+
 </LinearLayout>
 </ScrollView>
